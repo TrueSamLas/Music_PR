@@ -32,6 +32,28 @@ header ul li a {
     padding: 20px 0 20px 0;
 }
 
+.form {
+    background-color: rgb(83, 83, 83);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.form form input, button{
+    background-color: #ffffff;
+    width: 900px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form form button {
+    cursor: pointer;
+    font-weight: 700;
+}
+
 .banner {
     background-image: url("../img/banner.jpg");
     height: 400px;
