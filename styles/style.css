@@ -40,6 +40,33 @@ header ul li a {
     background-size: cover;
 }
 
+.songs {
+    padding: 40px 0 40px 0;
+}
+
+.songs h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.songs .albums {
+    display: grid;
+    grid-template-columns: repeat(3, 38%);
+}
+
+.songs .item {
+    width: 400px;
+}
+
+.songs .item p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.songs .item img {
+    width: 400px;
+}
+
 footer {
     background-color: rgb(83, 83, 83); 
 }
